@@ -1,2 +1,2 @@
-# Eric-s-portfolio
-Hi, these are my portfolio!
+# Eric's-portfolio
+Hi, these is my portfolio!

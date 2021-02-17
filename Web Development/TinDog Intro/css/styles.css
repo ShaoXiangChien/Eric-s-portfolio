@@ -1,0 +1,163 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+/* Heading */
+
+.big-heading {
+  font-family: 'Montserrat-Black';
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Section */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding:0 0 1rem;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  padding: 0 18px;
+  font-family: 'Montserrat-light';
+}
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+}
+.navbar-collapse {
+  position: relative;
+  right: -200px;
+  left: 200px;
+
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+/* iphone6 img */
+.iphone6 {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+/* Feature Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+   margin-top: 15px;
+}
+
+.fas {
+  color: #ef8172;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-btn {
+  width: 95%;
+}
+
+.pricing-card {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  .iphone6 {
+    margin-top: 50px;
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.cta-des {
+  color: white;
+  font-family: "Montserrat-Black";
+  font-size: 4rem;
+  margin-bottom: 50px;
+}
+
+.fa-envelope {
+  color: Black;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
